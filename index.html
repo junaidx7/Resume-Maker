@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <div id="maincc" class="main_container">
+
+        <div class="input_container">
+
+
+
+            <div  action="#">
+                <h3>Personal Details</h3>
+
+                <div class="main_grid">
+
+
+
+
+                    <div class="input_field_container">
+                        <label class="input_label" for="fname">First name</label><br>
+                        <input class="input" type="text" id="fname" name="fname">
+                    </div>
+
+                    <div>
+                        <label class="input_label" for="lname">Last name</label><br>
+                        <input class="input" type="text" id="lname" name="lname">
+                    </div>
+
+
+
+                    <div>
+                        <label class="input_label" for="job_title">Wanted Job Title</label><br>
+                        <input class="input" type="text" id="job_title" name="lname">
+                    </div>
+
+
+                    <div>
+                        <label class="input_label" for="lname">Email</label><br>
+                        <input class="input" type="text" id="email" name="lname">
+                    </div>
+
+                    <div>
+                        <label class="input_label" for="lname">Phone</label><br>
+                        <input class="input" type="text" id="phone" name="lname">
+                    </div>
+
+                    <div>
+                        <label class="input_label" for="lname">Country</label><br>
+                        <input class="input" type="text" id="country" name="lname">
+                    </div>
+
+                    <div>
+                        <label class="input_label" for="lname">City</label><br>
+                        <input class="input" type="text" id="city" name="lname">
+                    </div>
+
+                    <div>
+                        <label class="input_label" for="lname">Driving License</label><br>
+                        <input class="input" type="text" id="driving_license" name="lname">
+                    </div>
+
+                    <div>
+                        <label class="input_label" for="lname">Nationality</label><br>
+                        <input class="input" type="text" id="nationality" name="lname">
+                    </div>
+
+                    <div>
+                        <label class="input_label" for="lname">Date Of Birth</label><br>
+                        <input class="input" type="text" id="dob" name="lname">
+                    </div>
+                </div>
+
+                <div id="employment_history_section">
+
+
+
+
+
+                    <h3>Employment History</h3>
+                    <div class="main_grid">
+                        <div>
+                            <label class="input_label" for="lname">Job Title</label><br>
+                            <input class="input" type="text" id="job_title1" name="lname">
+                        </div>
+
+                        <div>
+                            <label class="input_label" for="lname">Employer</label><br>
+                            <input class="input" type="text" id="employer1" name="lname">
+                        </div>
+
+                        <div>
+                            <label class="input_label" for="start_date1">Start Date</label><br>
+                            <input class="input" type="text" id="start_date1" name="lname">
+                        </div>
+
+                        <div>
+                            <label class="input_label" for="lname">End Date</label><br>
+                            <input class="input" type="text" id="end_date1" name="lname">
+                        </div>
+
+                        <div>
+                            <label class="input_label" for="lname">City</label><br>
+                            <input class="input" type="text" id="city1" name="lname">
+                        </div>
+
+                        <div>
+                            <label class="input_label" for="lname">Job Resposibilities</label><br>
+                            <input class="input" type="text" id="job_desc1" name="lname">
+                        </div>
+                    </div>
+
+                    <button id="add_another_experience_btn" onclick="addInput()">Add Another</button>
+
+
+
+
+                </div>
+
+
+                <h3>Professional Summary</h3>
+                <p>Write 2-4 short & energetic sentences to interest the reader! Mention your role, experience &
+                    most
+                    importantly - your biggest achievements, best qualities and skills.</p>
+
+                <div>
+                    <label class="input_label" for="lname">Professional_Summary</label><br>
+                    <input class="input" type="text" id="professional_summary" name="lname">
+                </div>
+
+
+
+
+
+
+                <h3>Education</h3>
+
+                <div>
+                    <label class="input_label" for="lname">School</label><br>
+                    <input class="input" type="text" id="school_name1" name="lname">
+                </div>
+
+                <div>
+                    <label class="input_label" for="lname">Degree</label><br>
+                    <input class="input" type="text" id="degree_name1" name="lname">
+                </div>
+
+                <div>
+                    <label class="input_label" for="lname">Start Date</label><br>
+                    <input class="input" type="text" id="edu_start_date1" name="lname">
+                </div>
+
+                <div>
+                    <label class="input_label" for="lname">End date</label><br>
+                    <input class="input" type="text" id="edu_end_date1" name="lname">
+                </div>
+
+                <div>
+                    <label class="input_label" for="lname">City</label><br>
+                    <input class="input" type="text" id="edu_city1" name="lname">
+                </div>
+
+                <div>
+                    <label class="input_label" for="lname">Education Description</label><br>
+                    <input class="input" type="text" id="edu_desc1" name="lname">
+                </div>
+
+                <h3>Websites & Social Links</h3>
+
+                <div>
+                    <label class="input_label" for="lname">Linkedin</label><br>
+                    <input class="input" type="text" id="linkedin_link" name="lname">
+                </div>
+
+                <div>
+                    <label class="input_label" for="lname">Portfolio</label><br>
+                    <input class="input" type="text" id="portfolio_link" name="lname">
+                </div>
+
+                <h3>Skills</h3>
+
+                <div>
+                    <label class="input_label" for="lname">Skills</label><br>
+                    <input class="input" type="text" id="skills" name="lname">
+                </div>
+
+                <h3>Hobbys</h3>
+
+                <div>
+                    <label class="input_label" for="lname">Hobbies</label><br>
+                    <input class="input" type="text" id="hobbies" name="lname">
+                </div>
+
+
+
+
+
+
+                <input class="button" type="submit" value="Submit">
+            </div>
+
+
+
+            <button onclick="saveDiv('c','CV_ResumeNation')">Download PDF</button>
+            <button id="btn">Download jquery</button>
+
+
+
+
+        </div>
+
+
+        <div id="c" class="cv_container">
+
+
+            <div class="a4">
+                <div class="top">
+                    <div class="float_top_left">
+                        <h1 id="fname_cv">Full name</h1>
+                        <h4 class="colorize" id="job_title_cv">UI UX DESIGNER</h4>
+
+                    </div>
+
+
+                    <div class="float_top_right">
+                        <h5 id="phone_cv">Phone : 0589789768</h5>
+                        <h5 id="email_cv">Email : contact@email.com</h5>
+                    </div>
+
+
+                </div>
+
+                <hr class="solid">
+
+
+
+                <div class="content_container">
+                    <h4 class="side_title">Objective</h4>
+
+
+
+                    <div class="experience">
+
+                        <p id="professional_summary_cv">Experienced UI/UX designer with a strong background in user
+                            research, design thinking, and prototyping. Passionate about creating intuitive and visually
+                            appealing digital products that improve the user experience. Proven ability to collaborate
+                            with cross-functional teams to deliver successful projects on time and within budget.
+                            Seeking a challenging role in a dynamic and innovative company where I can continue to
+                            develop my skills and make a positive impact on the user experience.
+                        </p>
+
+                    </div>
+                </div>
+
+                <hr class="solid">
+
+
+                <div class="content_container">
+                    <h4 class="side_title">Experience</h4>
+
+
+
+
+                    <div class="experience">
+                        <div class="start-end-date">
+                            <h5 class="overline" id="start_date1_cv">1 Jan 2023</h5>
+                            <h5 id="start_date1_cv"> - </h5>
+                        <h5 class="overline" id="end_date1_cv">30 Jan 2023</h5>
+                        </div>
+                        
+                        <h4 class="colorize" id="job_title1_cv">UI UX Designer</h4>
+                        <h5 id="employer1_cv">Anxial Technologies</h5>
+                        <p id="job_desc1_cv">•Gathering and evaluating user requirements.
+                            • Develop UI mockups and prototypes that clearly illustrate
+                            how sites/apps functions and look like.
+                            • Design pixel perfect user interface from the prototype according to the
+                            color requirements of the customer.
+                            • Perform layout adjustments based on user feedback.
+                            Achievement : Won Exceptional contribution award
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+                <hr class="solid">
+
+                <div class="content_container">
+
+                    <h4 class="side_title">Education</h4>
+
+                    <div class="experience">
+                        <h5 class="overline" id="graduation_date1">Graduated Mar 2019</h5>
+                        <div class="inner-group">
+                        <h4 class="colorize" id="deg_name1">B.tech Mechanical Engineering</h4>
+                        <h5 id="institution1">Cochin College of Engineering &amp; Tech</h5>
+                        
+                        <p id="degree_desc1">Description</p>
+                        </div>
+                        
+
+                        
+
+
+                    </div>
+
+
+                </div>
+
+                <hr class="solid">
+
+                <div class="content_container">
+
+                    <h4 class="side_title">Software <br> Proficiency</h4>
+
+                    <div class="experience">
+
+                        <h5 class="overline" id="software_title1">Office Softwares</h5>
+                        <h5 id="software1">Microsoft Word</h5>
+                        <h5 id="software2">Microsoft Powerpoint</h5>
+                        <h5 id="software3">Microsoft Excel</h5>
+
+
+
+
+                    </div>
+
+
+                </div>
+
+                <hr class="solid">
+
+
+                <div class="content_container">
+
+                    <h4 class="side_title">Internships </h4>
+
+                    <div class="experience">
+
+                        <h4 id="internship_jobtitle1">Service Engineer</h4>
+                        <h5 id="institution_internship1">AM Motors</h5>
+                        <div class="start-end-date">
+                            <h5 id="Internship_startdate2">1 Jan 2023</h5>
+                            <h5> - </h5>
+                            <h5 id="Internship_enddate2">30 Jan 2023</h5>
+                        </div>
+                        <p id="internship_desc1">Maintenance and repair of equipment: The intern will be responsible for
+                            diagnosing and fixing technical problems with equipment and machinery.
+
+                            Technical support: The intern may be required to provide technical support to clients,
+                            including troubleshooting and answering technical questions.</p>
+
+                    </div>
+
+
+                </div>
+
+                <hr class="solid">
+
+
+                <div class="content_container">
+
+                    <h4 class="side_title">Languages</h4>
+
+                    <div class="experience">
+
+                        <div class="start-end-date">
+
+                            <h5 id="language1">English</h5>
+                            <h5> - </h5>
+                            <h5 id="proficiency1">Fluent</h5>
+
+                        </div>
+
+                        <div class="start-end-date">
+
+                            <h5 id="language1">Arabic</h5>
+                            <h5> - </h5>
+                            <h5 id="proficiency1">Fluent</h5>
+
+                        </div>
+
+                        <div class="start-end-date">
+
+                            <h5 id="language1">Hindi</h5>
+                            <h5> - </h5>
+                            <h5 id="proficiency1">Fluent</h5>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <hr class="solid">
+
+                <div class="content_container">
+
+                    <h4 class="side_title">Soft Skills</h4>
+
+                    <div class="experience">
+                        
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                          </ul>
+            
+                    </div>
+
+
+                </div>
+
+                <hr class="solid">
+
+
+                <div class="content_container">
+
+                    <h4 class="side_title">Personal Details</h4>
+
+                    <div class="experience">
+                        
+                        <ul>
+                            <div class="start-end-date">
+                                <li>Age :</li>
+                                <h5>25</h5>
+                            </div>
+
+                            <div class="start-end-date">
+                                <li>Nationality :</li>
+                                <h5>Indian</h5>
+                            </div>
+
+                            <div class="start-end-date">
+                                <li>Contact:</li>
+                                <h5>00971 589789768</h5>
+                            </div> 
+                            
+                            <div class="start-end-date">
+                                <li>Email:</li>
+                                <h5>contact@gmail.com</h5>
+                            </div> 
+                            
+                            
+                          </ul>
+            
+                    </div>
+
+
+                </div>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+        
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- printThis -->
+  <script type="text/javascript" src="printThis.js"></script>
+
+
+        <script src="/script.js"></script>
+        <script src="/custom.js"></script>
+
+</body>
+
+
+
+
+
+
+</html>
